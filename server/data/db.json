@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "role": "admin",
+      "email": "omarg.dev1@edukai.com",
+      "salt": "6f8ffcd129dcafca5f892e9988c67640",
+      "passwordHash": "36434668bbaf4e8b7fb2084fbd6fab6a9df42cf1f927f65ec8720e8d4a2bf377208664ef46df11e3afe2c7c39c3e8cddb6511d68ecb9e2e7afe54296648cc9ee",
+      "firstName": "Omar",
+      "lastName": "G.",
+      "displayName": "Omar G.",
+      "phone": "",
+      "bio": "Founder and platform admin keeping the academy growing smoothly.",
+      "focusTrack": "Career Switch",
+      "education": "",
+      "goals": "",
+      "experience": "",
+      "privateBadges": false,
+      "avatarUrl": "",
+      "achievements": [],
+      "badges": [],
+      "certificates": [],
+      "teacherProfile": null,
+      "createdAt": "2026-04-25T22:48:40.038Z",
+      "updatedAt": "2026-04-25T23:20:32.635Z",
+      "isOriginalAdmin": true,
+      "moderatorPermissions": {
+        "manageUsers": true
+      }
+    },
+    {
+      "id": "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+      "role": "admin",
+      "isOriginalAdmin": false,
+      "email": "yumii.1301@edukai.com",
+      "salt": "aba6b8f531dc322e0bb5c40ca4c05935",
+      "passwordHash": "342373e2bbc0f00d894b6240c4a8ffa68030c9e79e2fb85cd5ab0f61543aa9b9c1fbcc570fb524946953aa72a3170035bf77a0407bf449091694965004f2dd9f",
+      "firstName": "Yumi",
+      "lastName": "||",
+      "displayName": "Yumi ||",
+      "phone": "",
+      "bio": "",
+      "focusTrack": "Career Switch",
+      "education": "",
+      "goals": "",
+      "experience": "",
+      "privateBadges": false,
+      "avatarUrl": "",
+      "achievements": [],
+      "badges": [],
+      "certificates": [],
+      "moderatorPermissions": {
+        "manageUsers": true
+      },
+      "teacherProfile": null,
+      "createdAt": "2026-04-26T19:42:05.537Z",
+      "updatedAt": "2026-04-26T19:42:05.537Z"
+    },
+    {
+      "id": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "role": "teacher",
+      "isOriginalAdmin": false,
+      "email": "kotybotyy@edukai.com",
+      "salt": "c0d7d5409ae67e817659ed3a7cb594eb",
+      "passwordHash": "221bc87ba2877bbea71061b6bc693f8724628d607c36d7caf44057c17e211aea27ddf4fbc58b67f39cd84da05728b2cf4cd91d6777583ff0619bb41dd0d047b9",
+      "firstName": "Koti",
+      "lastName": "Toti",
+      "displayName": "Koti botii",
+      "phone": "",
+      "bio": "",
+      "focusTrack": "Career Switch",
+      "education": "High School",
+      "goals": "",
+      "experience": "",
+      "privateBadges": false,
+      "avatarUrl": "",
+      "achievements": [],
+      "badges": [],
+      "certificates": [],
+      "moderatorPermissions": {
+        "manageUsers": false
+      },
+      "teacherProfile": {
+        "title": "Instructor",
+        "specialty": "To be updated",
+        "score": 0,
+        "students": 0,
+        "classes": 0,
+        "growth": "0%"
+      },
+      "createdAt": "2026-04-26T21:43:17.775Z",
+      "updatedAt": "2026-04-26T21:54:35.139Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course_frontend",
+      "slug": "frontend-development",
+      "title": "Frontend Development",
+      "teacherId": "",
+      "teacherName": "edUKai teaching team",
+      "duration": "8 Weeks",
+      "level": "Beginner - Intermediate",
+      "priceCents": 300000,
+      "currency": "EGP",
+      "summary": "Build responsive interfaces and real frontend projects with live mentorship.",
+      "description": "This course helps students move from HTML, CSS, and JavaScript fundamentals into real React workflows, API integration, and portfolio-ready projects.",
+      "brief": "A founder-reviewed track focused on clean interface thinking, practical React work, and polished portfolio output.",
+      "format": "Live classes + replay library",
+      "imageKey": "frontend",
+      "category": "technology",
+      "audience": [
+        "Career switchers",
+        "Junior developers",
+        "Students building portfolios"
+      ],
+      "outcomes": [
+        "Responsive interfaces",
+        "State management",
+        "Portfolio reviews",
+        "Mock interviews"
+      ],
+      "modules": [
+        "UI foundations",
+        "React systems",
+        "API workflows",
+        "Capstone launch"
+      ],
+      "slots": [
+        {
+          "id": "slot_frontend_evening",
+          "name": "Frontend Evening Cohort",
+          "days": [
+            "Sunday",
+            "Tuesday",
+            "Thursday"
+          ],
+          "startTime": "18:30",
+          "durationMinutes": 120,
+          "capacity": 20,
+          "location": "Online Classroom A",
+          "recordings": [],
+          "chatMessages": []
+        },
+        {
+          "id": "slot_frontend_weekend",
+          "name": "Frontend Weekend Cohort",
+          "days": [
+            "Friday",
+            "Saturday"
+          ],
+          "startTime": "13:00",
+          "durationMinutes": 150,
+          "capacity": 16,
+          "location": "Online Classroom B",
+          "recordings": [],
+          "chatMessages": []
+        }
+      ],
+      "published": true,
+      "pendingEdits": [],
+      "createdBy": "user_admin",
+      "createdAt": "2026-04-25T22:48:40.105Z",
+      "updatedAt": "2026-04-25T22:48:40.105Z",
+      "materials": [],
+      "documents": [],
+      "assignments": [],
+      "exams": []
+    },
+    {
+      "id": "course_english",
+      "slug": "english-language",
+      "title": "English Language",
+      "teacherId": "",
+      "teacherName": "edUKai teaching team",
+      "duration": "6 Weeks",
+      "level": "All Levels",
+      "priceCents": 120000,
+      "currency": "EGP",
+      "summary": "Build fluency and speaking confidence with guided live practice.",
+      "description": "Students practice conversation, listening, writing, and presentation clarity in a warm, structured learning space.",
+      "brief": "A confidence-first language track built around conversation, consistency, and real speaking practice.",
+      "format": "Speaking labs + practice circles",
+      "imageKey": "english",
+      "category": "language",
+      "audience": [
+        "School learners",
+        "University students",
+        "Professionals improving fluency"
+      ],
+      "outcomes": [
+        "Speaking confidence",
+        "Listening stamina",
+        "Writing feedback",
+        "Presentation practice"
+      ],
+      "modules": [
+        "Diagnostic placement",
+        "Conversation labs",
+        "Presentation coaching",
+        "Certification prep"
+      ],
+      "slots": [
+        {
+          "id": "slot_english_morning",
+          "name": "English Morning Circle",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "startTime": "10:00",
+          "durationMinutes": 90,
+          "capacity": 18,
+          "location": "Online Classroom C",
+          "recordings": [],
+          "chatMessages": []
+        }
+      ],
+      "published": true,
+      "pendingEdits": [],
+      "createdBy": "user_admin",
+      "createdAt": "2026-04-25T22:48:40.105Z",
+      "updatedAt": "2026-04-25T22:48:40.105Z",
+      "materials": [],
+      "documents": [],
+      "assignments": [],
+      "exams": []
+    },
+    {
+      "id": "course_interpretation",
+      "slug": "simultaneous-interpretation",
+      "title": "Simultaneous Interpretation",
+      "teacherId": "",
+      "teacherName": "edUKai teaching team",
+      "duration": "6 Weeks",
+      "level": "Advanced",
+      "priceCents": 500000,
+      "currency": "EGP",
+      "summary": "Train under pressure with conference-style interpretation drills.",
+      "description": "Students work on listening control, memory, terminology, and calm live delivery inside realistic interpretation scenarios.",
+      "brief": "A high-focus track designed around intense live practice and structured review.",
+      "format": "Workshop-based",
+      "imageKey": "interpretation",
+      "category": "language",
+      "audience": [
+        "Language specialists",
+        "Advanced English learners",
+        "Aspiring interpreters"
+      ],
+      "outcomes": [
+        "Conference drills",
+        "Memory techniques",
+        "Pressure handling",
+        "Feedback recordings"
+      ],
+      "modules": [
+        "Listening control",
+        "Interpretation drills",
+        "Live event simulation",
+        "Mentor review"
+      ],
+      "slots": [
+        {
+          "id": "slot_interpretation_evening",
+          "name": "Interpretation Intensive",
+          "days": [
+            "Saturday"
+          ],
+          "startTime": "17:00",
+          "durationMinutes": 180,
+          "capacity": 12,
+          "location": "Online Classroom D",
+          "recordings": [],
+          "chatMessages": []
+        }
+      ],
+      "published": true,
+      "pendingEdits": [],
+      "createdBy": "user_admin",
+      "createdAt": "2026-04-25T22:48:40.105Z",
+      "updatedAt": "2026-04-25T22:48:40.105Z",
+      "materials": [],
+      "documents": [],
+      "assignments": [],
+      "exams": []
+    },
+    {
+      "id": "course_hr",
+      "slug": "human-resources-management",
+      "title": "Human Resources Management",
+      "teacherId": "",
+      "teacherName": "edUKai teaching team",
+      "duration": "12 Weeks",
+      "level": "Beginner",
+      "priceCents": 280000,
+      "currency": "EGP",
+      "summary": "Understand hiring, onboarding, and people operations through practical scenarios.",
+      "description": "Students learn the real operating side of HR, from recruitment and interviews to workforce planning and policy basics.",
+      "brief": "A practical people-operations course for learners who want less theory and more operating clarity.",
+      "format": "Case-study sessions",
+      "imageKey": "hr",
+      "category": "business",
+      "audience": [
+        "New HR staff",
+        "Operations leads",
+        "People team assistants"
+      ],
+      "outcomes": [
+        "Recruitment workflows",
+        "People operations",
+        "Policy writing",
+        "Interview design"
+      ],
+      "modules": [
+        "Hiring systems",
+        "Performance reviews",
+        "Workforce analytics",
+        "Policy clinic"
+      ],
+      "slots": [
+        {
+          "id": "slot_hr_evening",
+          "name": "HR Foundations Cohort",
+          "days": [
+            "Monday",
+            "Thursday"
+          ],
+          "startTime": "19:00",
+          "durationMinutes": 120,
+          "capacity": 24,
+          "location": "Online Classroom E",
+          "recordings": [],
+          "chatMessages": []
+        }
+      ],
+      "published": true,
+      "pendingEdits": [],
+      "createdBy": "user_admin",
+      "createdAt": "2026-04-25T22:48:40.105Z",
+      "updatedAt": "2026-04-25T22:48:40.105Z",
+      "materials": [],
+      "documents": [],
+      "assignments": [],
+      "exams": []
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_frontend",
+      "title": "Frontend Developer",
+      "department": "Development",
+      "location": "Remote / Cairo Office",
+      "type": "Full-Time",
+      "description": "Work on modern web interfaces using React and Tailwind CSS to deliver world-class learning experiences."
+    },
+    {
+      "id": "job_english",
+      "title": "English Language Instructor",
+      "department": "Education",
+      "location": "Remote / Alexandria Office",
+      "type": "Part-Time",
+      "description": "Guide learners through English grammar, fluency, and communication skills in engaging sessions."
+    },
+    {
+      "id": "job_hr",
+      "title": "HR Instructor",
+      "department": "Education",
+      "location": "Remote / Hybrid",
+      "type": "Part-Time",
+      "description": "Teach Human Resources concepts and real-world applications to students in our mentorship-based courses."
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "a4f16097-7313-4467-bad3-acfa51120b48",
+      "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "courseId": "course_frontend",
+      "slotId": "slot_frontend_evening",
+      "selectedDays": [
+        "Sunday"
+      ],
+      "daysPerWeek": 1,
+      "status": "active",
+      "paymentStatus": "deposit_paid",
+      "enrolledAt": "2026-04-26T21:50:46.778Z"
+    }
+  ],
+  "feedback": [],
+  "payments": [
+    {
+      "id": "7d850f9c-659e-4ede-8d15-7fba1be51fcc",
+      "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "courseId": "course_frontend",
+      "slotId": "slot_frontend_evening",
+      "selectedDays": [
+        "Sunday"
+      ],
+      "daysPerWeek": 1,
+      "amountCents": 45000,
+      "fullAmountCents": 300000,
+      "depositCents": 45000,
+      "remainingCents": 255000,
+      "paymentStage": "deposit",
+      "currency": "EGP",
+      "status": "paid",
+      "provider": "paymob",
+      "providerReference": "7d850f9c-659e-4ede-8d15-7fba1be51fcc",
+      "checkoutUrl": "http://127.0.0.1:5173/payments?paymentId=7d850f9c-659e-4ede-8d15-7fba1be51fcc",
+      "createdAt": "2026-04-26T21:50:40.017Z",
+      "updatedAt": "2026-04-26T21:50:46.778Z",
+      "dueAt": "2026-05-03T21:50:40.017Z",
+      "remainingDueAt": "2026-05-10T21:50:46.778Z",
+      "mode": "mock"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "8e5a476a-684e-492e-b24f-eb9099fd6a28",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "eb2c29d67e8d8adcac9945d0f1893f7fc51d655beef5492e12064134411ee45f",
+      "expiresAt": "2026-05-10T01:24:50.938Z",
+      "createdAt": "2026-04-26T01:24:50.938Z"
+    },
+    {
+      "id": "84b4befb-d561-4957-b179-2199baa99524",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "f07e604b7f7323c278e94d4af12191c4778ac7806217c444bccf92090d670e80",
+      "expiresAt": "2026-05-10T01:52:58.043Z",
+      "createdAt": "2026-04-26T01:52:58.044Z"
+    },
+    {
+      "id": "1d94af6c-04bf-4b39-9444-55a510a7fca9",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "ff584b39ae323b5e3a87e61dfa7dc577f634b79644e6f53d9f6ed2a83d3b2fac",
+      "expiresAt": "2026-05-10T01:54:27.477Z",
+      "createdAt": "2026-04-26T01:54:27.478Z"
+    },
+    {
+      "id": "80e74c67-1987-4022-a7e8-8decb3931df1",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "53613ceaa3f33572dfffc680297fed50d313a79732c804ed5f714a07a1e1c450",
+      "expiresAt": "2026-05-10T01:57:43.581Z",
+      "createdAt": "2026-04-26T01:57:43.581Z"
+    },
+    {
+      "id": "dd3a43f6-1126-4d7e-aad9-40b802d2f368",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "d7a9b869ddf297872d3daf9ef991ae0165c65eb85202003261ae0f77c84f422e",
+      "expiresAt": "2026-05-10T02:14:51.453Z",
+      "createdAt": "2026-04-26T02:14:51.454Z"
+    },
+    {
+      "id": "1cd80714-d0f7-4db7-a761-da6ceb9819d0",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "53cbc786f052e685742901de036f95477c1a7bed6c3b55666e261fe86a2cbdc0",
+      "expiresAt": "2026-05-10T02:15:59.203Z",
+      "createdAt": "2026-04-26T02:15:59.203Z"
+    },
+    {
+      "id": "536f45fa-187f-48d9-b8f6-3c471af12529",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "82d6022d0f6a98d21592dde65fd40dbb0e7f645d8eaed4d03f5c45dc255209d6",
+      "expiresAt": "2026-05-10T02:16:44.946Z",
+      "createdAt": "2026-04-26T02:16:44.946Z"
+    },
+    {
+      "id": "b0eeda22-9f5e-4c44-93a5-a939bfec5438",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "e24f310c7d1514f8448b59aa52a07a97abcce9fa9e9da328751b97af01c291fa",
+      "expiresAt": "2026-05-10T03:22:53.615Z",
+      "createdAt": "2026-04-26T03:22:53.615Z"
+    },
+    {
+      "id": "588cf4ca-fea7-4b02-99c7-4cc79a3a44d3",
+      "userId": "user_admin",
+      "type": "refresh",
+      "tokenHash": "d9bc257cad35e3c8f219e6a0ed1b4d9c86ce874dc7fa50253ce4682ca362ec5e",
+      "expiresAt": "2026-05-10T12:17:06.954Z",
+      "createdAt": "2026-04-26T12:17:06.955Z"
+    },
+    {
+      "id": "dc10a7c4-cb27-4a78-9cf9-19b4fac7ff75",
+      "userId": "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+      "type": "access",
+      "tokenHash": "a9b115e4397524edffc52c9f9baeff18850446eeabbb0aeaebe86dc4ba1cccdb",
+      "expiresAt": "2026-04-26T22:12:25.635Z",
+      "createdAt": "2026-04-26T21:42:25.636Z"
+    },
+    {
+      "id": "15b6c45f-3518-4d30-8926-1e004a5ce96e",
+      "userId": "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+      "type": "refresh",
+      "tokenHash": "e59760434d771f6d8ba2a65dbcea2c8b03407fa6a217d0924287ce070bbee351",
+      "expiresAt": "2026-05-10T21:42:25.635Z",
+      "createdAt": "2026-04-26T21:42:25.636Z"
+    }
+  ],
+  "reminders": [],
+  "notifications": [
+    {
+      "id": "91dccebd-9b22-4f95-80e6-98665d29b10f",
+      "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "type": "payment",
+      "title": "Deposit confirmed",
+      "message": "Your 15% deposit for Frontend Development is confirmed. The remaining balance stays on your account until 11/05/2026.",
+      "link": "/payments?paymentId=7d850f9c-659e-4ede-8d15-7fba1be51fcc",
+      "read": true,
+      "createdAt": "2026-04-26T21:50:46.780Z",
+      "meta": {}
+    },
+    {
+      "id": "8a68d23f-e958-4bd5-82eb-fffd6fb15e72",
+      "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "type": "payment",
+      "title": "Deposit checkout created",
+      "message": "Your 15% deposit for Frontend Development is ready to confirm.",
+      "link": "/payments?paymentId=7d850f9c-659e-4ede-8d15-7fba1be51fcc",
+      "read": true,
+      "createdAt": "2026-04-26T21:50:40.018Z",
+      "meta": {}
+    },
+    {
+      "id": "ada9e0be-a669-47f5-ab7f-a00f92db4415",
+      "userId": "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+      "type": "message",
+      "title": "New message from Koti botii",
+      "message": "Ba7bek ya bnotaa antiii",
+      "link": "/meeting-rooms",
+      "read": false,
+      "createdAt": "2026-04-26T21:47:25.596Z",
+      "meta": {}
+    },
+    {
+      "id": "b9e6c36e-aa89-43cc-a5db-8a1375c1af2b",
+      "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "type": "account",
+      "title": "Welcome to edUKai",
+      "message": "Your account is ready. Choose a course, reserve your seat, and keep an eye on your notifications for the next steps.",
+      "link": "/",
+      "read": true,
+      "createdAt": "2026-04-26T21:43:17.776Z",
+      "meta": {}
+    },
+    {
+      "id": "8c0834be-6de7-429e-a13b-29a3778dad8c",
+      "userId": "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+      "type": "account",
+      "title": "Your account was created",
+      "message": "Your admin access is ready inside edUKai.",
+      "link": "/signin",
+      "read": true,
+      "createdAt": "2026-04-26T19:42:05.574Z",
+      "meta": {}
+    },
+    {
+      "id": "e868deff-d0b8-488a-8888-9508dd8312d6",
+      "userId": "user_admin",
+      "type": "meeting",
+      "title": "Mariam Ramadan started a meeting",
+      "message": "Join Welcome onboard from the meeting rooms page.",
+      "link": "/meeting-rooms",
+      "read": true,
+      "createdAt": "2026-04-25T22:52:55.767Z",
+      "meta": {}
+    },
+    {
+      "id": "b4c06304-11cd-42b9-a0ff-1a851d74ef3a",
+      "userId": "user_admin",
+      "type": "message",
+      "title": "New message from Mariam Ramadan",
+      "message": "Hello Boss",
+      "link": "/meeting-rooms",
+      "read": true,
+      "createdAt": "2026-04-25T22:52:36.524Z",
+      "meta": {}
+    }
+  ],
+  "conversations": [
+    {
+      "id": "88ae9ba0-6723-4999-be2f-2bf39706b7ac",
+      "participantIds": [
+        "c49744ca-d964-4c8d-9210-fdb2d6cfaa76",
+        "dd6891c8-5184-45d9-b76a-3db3c1da60d8"
+      ],
+      "createdBy": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "createdAt": "2026-04-26T21:47:14.058Z",
+      "updatedAt": "2026-04-26T21:47:25.596Z",
+      "messages": [
+        {
+          "id": "1dcc2840-34f0-4959-87e7-1dc3edd8a626",
+          "senderId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+          "body": "Ba7bek ya bnotaa antiii",
+          "createdAt": "2026-04-26T21:47:25.596Z",
+          "readBy": [
+            "dd6891c8-5184-45d9-b76a-3db3c1da60d8"
+          ]
+        }
+      ]
+    }
+  ],
+  "meetings": [
+    {
+      "id": "5b831d80-a3f8-43a7-801c-fc8dc70f1f37",
+      "type": "private",
+      "title": "T3laly",
+      "hostId": "user_admin",
+      "courseId": "",
+      "slotId": "",
+      "invitedUserIds": [],
+      "meetingUrl": "https://meet.jit.si/edukai-t3laly-6c1b864a",
+      "roomCode": "t3laly-6c1b864a",
+      "status": "ended",
+      "createdAt": "2026-04-25T23:11:13.629Z",
+      "startedAt": "2026-04-25T23:11:13.629Z",
+      "updatedAt": "2026-04-25T23:13:19.998Z"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": "ef907102-0a69-43c2-9c25-2b979a42600d",
+      "authorId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+      "body": "Hello Yumiiii <3",
+      "courseId": "",
+      "repostOfId": "",
+      "reactions": [
+        {
+          "id": "5c844e63-4961-4eac-9a25-d7f97877a3f9",
+          "userId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+          "type": "love",
+          "createdAt": "2026-04-26T21:45:59.551Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "7f3a34fc-9822-4569-ab37-8dc8ccec10e4",
+          "parentId": "",
+          "authorId": "dd6891c8-5184-45d9-b76a-3db3c1da60d8",
+          "body": "I love you 1 Million",
+          "createdAt": "2026-04-26T21:46:16.383Z"
+        }
+      ],
+      "createdAt": "2026-04-26T21:45:52.482Z",
+      "updatedAt": "2026-04-26T21:46:16.383Z"
+    },
+    {
+      "id": "7009a425-07c1-43e3-bdc2-5d7941c9f17e",
+      "authorId": "user_admin",
+      "body": "Quick win from today and what I want to keep building.",
+      "courseId": "",
+      "repostOfId": "",
+      "reactions": [],
+      "comments": [],
+      "createdAt": "2026-04-26T18:56:34.109Z",
+      "updatedAt": "2026-04-26T18:56:34.109Z"
+    },
+    {
+      "id": "af92ba7c-76c8-4ad2-a41f-c62d74b016b8",
+      "authorId": "user_admin",
+      "body": "Hello edUKai fellows, A wonderful day indeed",
+      "courseId": "",
+      "repostOfId": "",
+      "reactions": [],
+      "comments": [],
+      "createdAt": "2026-04-26T13:13:35.004Z",
+      "updatedAt": "2026-04-26T13:13:35.004Z"
+    },
+    {
+      "id": "e5b0f44e-d822-4b94-83a6-ade9cee454fa",
+      "authorId": "user_admin",
+      "body": "",
+      "courseId": "",
+      "repostOfId": "fc4df435-110b-4b4d-9f0e-21f9c62e446e",
+      "reactions": [
+        {
+          "id": "ac53f40f-be5d-4fde-814f-13c49b10d9f3",
+          "userId": "user_admin",
+          "type": "wow",
+          "createdAt": "2026-04-26T02:03:11.324Z"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2026-04-26T02:02:42.217Z",
+      "updatedAt": "2026-04-26T02:03:11.324Z"
+    },
+    {
+      "id": "fc4df435-110b-4b4d-9f0e-21f9c62e446e",
+      "authorId": "user_admin",
+      "body": "Welcome to the refreshed community feed. This is a quick test post from the admin view.",
+      "courseId": "",
+      "repostOfId": "",
+      "reactions": [
+        {
+          "id": "c4022909-8ab7-413f-b6ed-bb2db2ea2061",
+          "userId": "user_admin",
+          "type": "love",
+          "createdAt": "2026-04-26T01:59:47.935Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "09f44d8d-1f0d-4cc7-a154-383840fad81b",
+          "parentId": "",
+          "authorId": "user_admin",
+          "body": "Testt",
+          "createdAt": "2026-04-26T01:59:37.512Z"
+        }
+      ],
+      "createdAt": "2026-04-26T01:57:43.631Z",
+      "updatedAt": "2026-04-26T01:59:47.935Z"
+    }
+  ],
+  "profileComments": [],
+  "peerFeedback": [],
+  "courseRatings": [],
+  "assignmentSubmissions": []
+}
