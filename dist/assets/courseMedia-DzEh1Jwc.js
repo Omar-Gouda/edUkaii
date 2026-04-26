@@ -1,0 +1,1 @@
+const n="/assets/frontend-development-BHk22JdY.webp",t="/assets/English-lang-course-W-11Mzdb.webp",r="/assets/Simultaneous-Interpretation-DX-eDpUp.webp",s="/assets/Human-resources-BJ2hOI95.webp",a={frontend:n,english:t,interpretation:r,hr:s,technology:n,language:t,business:s};function o(e){return e?.thumbnailUrl?e.thumbnailUrl:a[e?.imageKey]||n}export{o as r};

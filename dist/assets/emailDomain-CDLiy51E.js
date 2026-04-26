@@ -1,0 +1,1 @@
+const n="edukai.com";function t(r){const i=String(r||"").trim().toLowerCase();return i.endsWith(`@${n}`)?i.slice(0,-`@${n}`.length):i.replace(/@.*$/,"")}function e(r){const i=String(r||"").trim().toLowerCase();return i?i.includes("@")?i:`${i}@${n}`:""}export{n as E,e as b,t as s};
