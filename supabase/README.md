@@ -38,6 +38,8 @@ VITE_SUPABASE_URL=https://uobidxggdvdzziyzfrrq.supabase.co
 VITE_SUPABASE_PUBLISHABLE_KEY=...
 ```
 
+Do not rely on `NEXT_PUBLIC_*` names for browser access here. This project is built with Vite, so only `VITE_*` variables are exposed to the frontend bundle.
+
 ## Setup steps
 
 1. Open the Supabase SQL editor.
@@ -62,3 +64,5 @@ VITE_SUPABASE_PUBLISHABLE_KEY=...
 The current Express API still writes the canonical snapshot into `public.app_state`. The new migration adds a trigger that immediately syncs that JSON snapshot into relational `app_*` tables, so the data stays queryable without waiting for a full backend rewrite.
 
 Direct writes to the new `app_*` tables will not sync back into `app_state`; that should be the next migration phase if you want the API itself to become table-native.
+
+This bridge is functional for launch, but it is not the final low-latency architecture. Each `app_state` write also triggers relational sync work, so the long-term production target should be direct relational writes from the API instead of full-payload fan-out.
